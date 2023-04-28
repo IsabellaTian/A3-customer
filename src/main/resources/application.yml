@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+#      dialect: org.hibernate.dialect.MySQL8Dialect
+#  datasource:
+#    url: jdbc:mysql://mystack-databasecluster-jiurqp4qfhse.cluster-cewmwnnz30gg.us-east-1.rds.amazonaws.com/a1_17647_db
+#    username: awsadmin
+#    password: awsadmin
+  datasource:
+    url: jdbc:mysql://stacka3-databasereplicainstance-ikxwakkqhtuw.co3j88tvc4xt.us-east-1.rds.amazonaws.com:3306/db1
+    username: root
+    password: root
+server:
+  port: 3000
