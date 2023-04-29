@@ -8,7 +8,7 @@ spring:
 #    username: awsadmin
 #    password: awsadmin
   datasource:
-    url: jdbc:mysql://stacka3-databasereplicainstance-tml7scn3tcll.co3j88tvc4xt.us-east-1.rds.amazonaws.com:3306/db1
+    url: jdbc:mysql://stacka3-databasereplicainstance-6fx6sih7kitn.co3j88tvc4xt.us-east-1.rds.amazonaws.com:3306/db1
     username: root
     password: Tianyiwei281
 server:
