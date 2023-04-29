@@ -27,7 +27,7 @@ public class CustomerServiceImpl implements CustomerService {
             return new ResponseEntity<>(new ErrorMessage("This user ID already exists in the system."), HttpStatus.UNPROCESSABLE_ENTITY);
         }
         var newCustomer = customerRepository.save(customer);
-        kafkaTemplate.send("ziruili.customer.evt", customer);
+        kafkaTemplate.send("yiweitia.customer.evt", customer);
         return new ResponseEntity<>(newCustomer, HttpStatus.CREATED);
     }
 
